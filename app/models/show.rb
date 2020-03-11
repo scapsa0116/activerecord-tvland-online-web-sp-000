@@ -1,7 +1,7 @@
 class Show < ActiveRecord::Base
   belongs_to :network
   has_many :characters
-has_many :actors
+has_many :actors   thru
 
 def actors_list 
  @actors.map do |n|
