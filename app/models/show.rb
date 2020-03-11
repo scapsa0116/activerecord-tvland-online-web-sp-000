@@ -4,7 +4,7 @@ class Show < ActiveRecord::Base
 has_many :actors,    through: :characters
 
 def actors_list 
-actors.each do |n|
+actor.each do |n|
   n.full_name
 end 
 end 
