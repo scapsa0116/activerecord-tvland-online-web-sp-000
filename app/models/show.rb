@@ -4,7 +4,7 @@ class Show < ActiveRecord::Base
 has_many :actors
 
 def actors_list 
- @shows.actors.lenght do |n|
+ @shows.actors.map do |n|
    n.full_name
  end 
 end 
