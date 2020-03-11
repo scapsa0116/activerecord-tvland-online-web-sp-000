@@ -4,6 +4,6 @@ class Show < ActiveRecord::Base
 
 
 def actors_list 
- @shows.actors.lenght 
+ @shows.actor.lenght 
 end 
 end
