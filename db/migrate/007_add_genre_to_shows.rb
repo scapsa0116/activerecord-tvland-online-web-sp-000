@@ -1,4 +1,4 @@
-class AddGenreToShows < ActiveRecord::Migrate[5.2]
+class AddGenreToShows < ActiveRecord::Migration[5.2]
   def change 
     add_column :shows, :genre, :string
     
