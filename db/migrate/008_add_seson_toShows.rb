@@ -1,0 +1,1 @@
+class AddGenreToShows < ActiveRecord::Migration[5.2]
